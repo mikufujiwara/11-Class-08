@@ -1,3 +1,55 @@
 @media (min-width: $mediaSizeTab) {
-    
+    details {
+        display: none;
+    }
+
+    nav {
+        padding-top: 0;
+        padding-bottom: 5vh;
+        height: 20vh;
+        display: flex;
+        row-gap: 4vh;
+
+        > section {
+            position: fixed;
+        }
+
+        > article {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            column-gap: 2vh;
+        }
+
+        li {
+            display: flex;
+            width: 10%;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 5vh;
+            padding: 1%;
+            width: 100%;
+            text-decoration: none;
+            color: $defaultColor;
+            text-align: center;
+            transition: .4s;
+        }
+
+        a:hover {
+            background-color: gainsboro;
+            color: $defaultBlue;
+        }
+    }
 }
