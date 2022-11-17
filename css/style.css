@@ -573,4 +573,51 @@ textarea {
   .activities figure {
     width: 48%;
   }
+  .company {
+    width: 80%;
+    flex-direction: row;
+  }
+  .company figure {
+    align-items: flex-start;
+    flex-direction: row;
+    -moz-column-gap: 2vh;
+         column-gap: 2vh;
+  }
+  .company img {
+    width: 45vh;
+    height: 45vh;
+  }
+  .company > section {
+    align-items: flex-end;
+  }
+  .company figcaption {
+    width: 55%;
+  }
+  .company figcaption a {
+    width: 40%;
+  }
+  .contact {
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    -moz-column-gap: 15vh;
+         column-gap: 15vh;
+  }
+  .contact > section,
+.contact > figure {
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+  }
+  .contact form {
+    width: 90%;
+  }
+  .contact img {
+    width: 70vh;
+    height: 50vh;
+  }
+  .contact > figure {
+    align-items: flex-start;
+  }
 }/*# sourceMappingURL=style.css.map */

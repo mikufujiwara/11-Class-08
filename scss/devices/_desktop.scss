@@ -74,4 +74,60 @@
         }
     }
 
+    .company {
+        width: 80%;
+        flex-direction: row;
+
+        figure {
+            align-items: flex-start;
+            flex-direction: row;
+            column-gap: 2vh;
+        }
+
+        img {
+            width: 45vh;
+            height: 45vh;
+        }
+
+        > section {
+            align-items: flex-end;
+        }
+
+        figcaption {
+            width: 55%;
+
+            a {
+                width: 40%;
+            }
+        }        
+    }
+
+    .contact {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0;
+        column-gap: 15vh;
+
+        > section, 
+        > figure {
+            justify-content: center;
+            padding: 0;
+            width: 100%;
+        }
+
+        form {
+            width: 90%;
+        }
+
+        img {
+            width: 70vh;
+            height: 50vh;
+        }
+
+        > figure {
+            align-items: flex-start;
+        }
+    }
+
 }
