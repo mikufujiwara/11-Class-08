@@ -26,6 +26,10 @@ main > section {
   padding-bottom: 5vh;
 }
 
+a {
+  cursor: pointer;
+}
+
 .title-page {
   display: none;
 }
@@ -437,5 +441,73 @@ textarea {
     flex-direction: row;
     -moz-column-gap: 5vh;
          column-gap: 5vh;
+  }
+  .activities > article {
+    background-position: center;
+  }
+  .activities > section {
+    width: unset;
+  }
+  .activities figure {
+    flex-direction: row;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+    padding: 3%;
+  }
+  .activities img {
+    width: 15vh;
+    height: 15vh;
+  }
+  .company img {
+    width: 30vh;
+    height: 30vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .company figcaption {
+    row-gap: 2vh;
+    align-items: flex-start;
+  }
+  .company figcaption a {
+    font-size: 18px;
+    width: 25%;
+    transform: 0.4s;
+  }
+  .company figcaption a:hover {
+    background-color: #909090;
+    color: white;
+  }
+  .company > section > article:first-child {
+    width: 90%;
+  }
+  .contact {
+    padding-right: 10%;
+  }
+  .contact > section {
+    align-items: flex-end;
+  }
+  .contact form {
+    width: 50%;
+  }
+  .contact > figure {
+    align-items: flex-end;
+  }
+  .contact img {
+    width: 50vh;
+    height: 30vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+  .contact figcaption {
+    width: 50vh;
+  }
+  [type=submit] {
+    transition: 0.4s;
+  }
+  [type=submit]:hover {
+    background-color: #909090;
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */

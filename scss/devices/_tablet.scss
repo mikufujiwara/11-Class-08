@@ -57,4 +57,96 @@
         flex-direction: row;
         column-gap: 5vh;
     }
+
+    .activities {
+
+        > article {
+            background-position: center;
+        }
+
+        > section {
+            width: unset;
+        }
+        
+        figure {
+            flex-direction: row;
+            column-gap: 3vh;
+            padding: 3%;
+        }
+
+        img {
+            width: 15vh;
+            height: 15vh;
+        }
+
+
+    }
+
+    .company {
+        img {
+            width: 30vh;
+            height: 30vh;
+            object-fit: cover;
+        }
+
+        figcaption {
+            row-gap: 2vh;
+            align-items: flex-start;
+
+            a {
+                font-size: 18px;
+                width: 25%;
+                transform: .4s;
+
+                &:hover {
+                    background-color: $defaultGray;
+                    color: white;
+                }
+            }
+        }
+
+        > section {
+
+            > article:first-child {
+                width: 90%;
+            }
+        }
+    }
+
+    .contact {
+
+        padding-right: 10%;
+
+        > section {
+            align-items: flex-end;
+        }
+
+        form {
+            width: 50%;
+        }
+
+        > figure {
+            align-items: flex-end;
+        }
+
+        img {
+            width: 50vh;
+            height: 30vh;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        figcaption {
+            width: 50vh;
+        }
+    }
+
+    [type="submit"] {
+        transition: .4s;
+
+        &:hover {
+            background-color: $defaultGray;
+            color: white;
+        }
+    }
 }
